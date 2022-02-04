@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100&family=Poiret+One&display=swap');
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poiret One', cursive;
+}
+
+
+body {
+    background: url(img/celular.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-position-y: -100px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    pointer-events: none;
+    
+  
+}
+.menu  {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 4.5%;
+    
+}
+.logo img {
+    width: 56px;
+}
+
+.menu-itens a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    color: #757575;
+    font-weight: 600;
+    margin-left: 28px;
+    padding-right: 21px;
+    pointer-events: auto;
+
+}
+
+.content {
+    height: 100vh;
+    width: 100%;
+    padding: 0 4.5%;
+}
+
+.left-side  {
+    display: flex;
+    flex-direction: column;
+    height: 54%;
+    justify-content: center;
+    padding-left: 100px;
+}
+.left-side h1{
+    margin-top: 90px;
+    font-size: 58px;
+    max-width: 450px;
+    font-weight: 10;
+    letter-spacing: 2px;
+}
+
+.left-side h3{
+    font-size: 30px;
+    max-width: 550px;
+    font-weight: 5;
+    color: #101111;
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+
+.left-side  p{
+    font-size: 16px;
+    line-height: 1.125;
+    font-weight: 600;
+    color: rgb(119, 119, 119);
+    margin-bottom: 60px;
+}
+
+.btn {
+    font-size: 14px;
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+    border: 1px solid black;
+    width: fit-content;
+    padding: 10px 70px;
+    pointer-events: auto;
+}
+
+.menu-itens a:hover {
+    color: #ff6901;
+    transition: 0.3s; 
+}
+
+.btn:hover {
+    background-color: rgb(41, 41, 41);
+    color: #fff;
+    transition: 0.5s;    
+}
